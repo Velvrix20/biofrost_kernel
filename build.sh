@@ -5,7 +5,7 @@
 
 # Dependency preparation
 make clean mrproper
-git clean -fdx; git reset --hard
+#git clean -fdx; git reset --hard
 rm -rf AnyKernel/{*.zip,*.img,Image.gz-dtb}
 git clone --depth=1 https://github.com/mcdofrenchfreis/AnyKernel3.git -b r5x AnyKernel
 
