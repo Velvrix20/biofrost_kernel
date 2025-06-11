@@ -12,7 +12,7 @@ git clone --depth=1 https://github.com/mcdofrenchfreis/AnyKernel3.git -b r5x Any
 # Main Variables
 #DATE=$(TZ=Asia/Kolkata date +"%a %b %d %r %Z %Y")
 #BUILD_START=$(date +"%s")
-TCDIR="/home/biofrost/Development/Compiler/clang-r547379"
+TCDIR="/home/biofrost_kernel/clang-r547379"
 DTBO=out/arch/arm64/boot/dtbo.img
 IMAGE=out/arch/arm64/boot/Image.gz-dtb
 
@@ -42,7 +42,7 @@ export KBUILD_BUILD_USER="me"
 export KBUILD_BUILD_HOST="1108"
 export DEVICE="Realme 5 Series"
 export CODENAME="realme_trinket"
-export DISTRO=$(source /etc/os-release && echo "${NAME}")
+#export DISTRO=$(source /etc/os-release && echo "${NAME}")
 
 # Telegram Integration Variables
 #CI_ID="-1001736789494"
